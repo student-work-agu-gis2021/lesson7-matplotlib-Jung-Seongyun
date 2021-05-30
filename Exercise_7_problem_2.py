@@ -21,7 +21,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 fp = 'data/helsinki-vantaa.csv'
-data = pd.read_csv(fp,prase_dates = ['DATA'],index_col = ['DATA'])
+data = pd.read_csv(fp,parse_dates = ['DATE'],index_col = ['DATE'])
 
 # This test print should print first five rows
 print(data.head())
