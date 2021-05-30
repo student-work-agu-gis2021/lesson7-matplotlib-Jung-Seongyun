@@ -19,7 +19,7 @@
 # YOUR CODE HERE 1 to read the data into data and parse dates
 import pandas as pd
 import numpy as np
-import matlpotlib.pyplot as plt
+import matplotlib.pyplot as plt
 fp = 'data/helsinki-vantaa.csv'
 data = pd.read_csv(fp,prase_dates = ['DATA'],index_col = ['DATA'])
 
