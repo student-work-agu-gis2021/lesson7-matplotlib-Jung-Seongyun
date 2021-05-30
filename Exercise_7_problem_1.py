@@ -17,7 +17,7 @@
 
 import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plot
+from matplotlib import pyplot as plt
 from matplotlib import cm
 
 # YOUR CODE HERE 1 to set data
@@ -56,6 +56,13 @@ assert len(colors) == 1000, "There should be 1000 random numbers for colors"
 
 # Plot a scatter plot
 # YOUR CODE HERE 3
+plt.scatter(
+  data['x'],data['y'],
+  cmap = cm.Accent,
+  s = 100, c = colors,
+  edgecolor = "black"
+)
+plt.colorbar()
 
 # Add labels and title
 # YOUR CODE HERE 4
