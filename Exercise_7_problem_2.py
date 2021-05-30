@@ -59,10 +59,10 @@ print("Number of rows:", len(selection))
 # YOUR CODE HERE 3
 ax = selection['TEMP_C'].plot(
   figsize = (20,6),
-  color = "black" , marker = "." , 
-  title = "Helsinki-Vantaa Airport" , 
-  linestlye = "solia" , 
-  xlabel = "TIME" , ylabel = "Temperature(Celsius)"
+  color = 'black', marker = '.', 
+  title = "Helsinki-Vantaa Airport", 
+  linestyle = 'solid', 
+  xlabel = 'Time', ylabel = 'Temperature(Celsius)'
 )
 plt.grid()
 
